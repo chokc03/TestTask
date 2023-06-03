@@ -1,0 +1,16 @@
+//color
+$white:#fff;
+$black:#000;
+$grey:#5c5c5c;
+$dark_purple:#4F418E;
+$light_purple:#C7A3E2;
+
+//transition
+$normal_transition:ease-in-out 0.2s;
+
+//div center(display)
+@mixin flexCenter{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
